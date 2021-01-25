@@ -10,7 +10,7 @@ App = {
   init: () => {
     return App.initWeb3();
   },
-
+  //await web3 react hook for easy UI interaction.
   // Addresses Metamask breaking changes
   // https://medium.com/metamask/https-medium-com-metamask-breaking-change-injecting-web3-7722797916a8
   initWeb3: async () => {
